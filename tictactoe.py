@@ -1,7 +1,3 @@
-# TODO
-# * check if game really works ^^
-# * somehow show which players turn it is
-
 import random
 import re       # for regular expressions
 import os
@@ -21,7 +17,6 @@ def cellcheck(avail, pos):
         return check
     else:
         print("Already in use. Try again.")
-        #pos = str(input("On which field do you want to place your mark? "))
         check = 1
         return check
 
